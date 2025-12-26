@@ -15,4 +15,14 @@ python -m venv venv
 # Windows: venv\Scripts\activate
 # Linux/Mac: source venv/bin/activate
 pip install -r requirements.txt
+## Usage
+
+### Windows
+> If `python` points to Python 2.x on Windows, use `py`.
+
+```bash
+py hash_generator.py --text "hello world" --algo sha256
+py password_checker.py --password "P@ssw0rd123!"
+py port_scanner.py --host 127.0.0.1 --ports 80,443
+
 
